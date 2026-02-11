@@ -1,0 +1,70 @@
+on terminal npm i -D @playwright/test  allure-playwright
+check package.json now has allure
+
+
+https://allurereport.org/docs/playwright/
+
+///////////////////api testing with playwright/////////////////
+
+Step 1 - Create a new folder for API Testing Project
+Step 2 - Open the folder in VS Code
+Step 3 - Open terminal on the location of the folder and run command  npm init playwright@latest
+
+Step 4 - Check if demo tests are running fine using commands   npx playwright test
+npx playwright test --ui
+npx playwright show-report
+
+/////////////////////playwright bdd //////////////
+Step 1 - Create a new folder 
+Step 2 - Open the folder in VS Code
+Step 3 - Open terminal on the location of the folder and run command  npm init playwright@latest
+step 4 - npm i @cucumber/cucumber
+see in package.json cucumber dependencies will come
+step 5 - install extension : Cucumber (Gherkin) Full Support ,to get color support
+step 6 - create cucumber.json in root folder
+step 7 - under test folder create two folders features and steps
+step 8 - to execute npx cucumber-js test
+step 9 - Once execution is complete, the report will be generated in the root directory with the name cucumber-report.html
+
+
+
+
+
+https://www.browserstack.com/guide/playwright-cucumber
+====================================
+
+======================typescript ======================
+Getting Started - Setup
+Step 1 : Download and install Node js
+node -v
+npm -v
+Step 2 : Install TypeScript
+npm install -g typescript
+tsc -v
+Step 3 : Download IDE - Visual Studio Code
+Step 4 : Add support for javascript, typescript and code runner
+Step 5 : Create a new folder and open in VS Code
+Step 6 : Create javascript (.js) and (.ts) files
+
+To add TypeScript in a local folder
+Step 1 : Download and install Node js
+node -v
+npm -v
+Step 2 : Download IDE - Visual Studio Code
+Step 3 : Create a new folder and open in VS Code
+Step 4 : Open VS Code Terminal and run commands
+npm init -y
+npm install typescript 
+Step 5 : Check typescript is installed      npx tsc -v
+
+*********first typescript pgm*******
+step 1 -Compile with command
+tsc basics.ts 
+Step 2 - Check JavaScript file created
+Step 3 - Run JavaScript file node basics.js
+Step 4 - Add export at top of basics.ts 
+Step 5 - To compile ts file on every change  tsc basic --watch
+
+tsc basics.ts  - to compile typescript code
+node basics.js  - to run compiled javascript code
+tsc basic --watch - to compile ts file on every change
